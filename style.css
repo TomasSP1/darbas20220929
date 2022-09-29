@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    border-color: red;
+    
+}
+/* css nav bar */
+
+nav {
+    height: 8%;
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    border: 8px solid gray;
+}
+
+.ulContainer {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 90%;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#information {
+    width: 40%;
+    display: flex;
+    gap: 30px;
+    height: 45%;
+}
+
+input {
+    width: 60%;
+    border: gray;
+}
+
+button {
+    width: 20%;
+    height: 15;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* css main section */
+
+.containerOne {
+    height: 84%;
+    background-color: aqua;
+    display: flex;
+}
+
+article {
+    background-color: aliceblue;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 8px solid gray;  
+    padding-left: 1.0%;
+}
+
+h2 {
+    font-size: 2.8em;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Titan One', cursive;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border: 8px solid gray;
+    background-color: pink; 
+}
+
+#asideheader {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 12%;
+}
+
+.ulSecondContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 15px;
+}
+
+li::marker 
+{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* footer css */
+
+footer {
+    height: 8%;
+    display: flex;
+    border: 8px solid gray; 
+    align-items: center;
+}
